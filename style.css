@@ -1,0 +1,38 @@
+body{
+    background-color:darkgrey;
+}
+body *{
+    color: red;
+    align-items: center;
+}
+.boton{
+    background-color:lightseagreen;
+}
+
+#ejercicio1{
+    background-color: hotpink;
+    padding: 10px;
+    text-align: center;
+}
+#ejercicio2{
+    background-color:darkseagreen;
+    padding: 10px;
+    text-align: center;
+}
+#ejercicio3{
+    background-color:lightcyan;
+    padding: 10px;
+    text-align: center;
+}
+#ejercicio4{
+    background-color:mediumturquoise;
+    padding: 10px;
+    text-align: center;
+}
+
+h3{
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    
+}

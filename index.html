@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Práctica Semana 3</title>
+</head>
+<body>
+    <h3>Carlos Eduardo Mejia Luna smss061022</h3>
+    <div id="ejercicio1">
+        <label>Calcular Velocidad</label>
+        <input type="text" id="distancia" placeholder="Distancia en km">
+        <input type="text" id="tiempo" placeholder="Tiempo en min">
+        <button  class="boton" type="button" onclick=vel()>Respuesta</button>
+        <label id="calculo_velocidad"></label>
+    </div>
+
+    <div id="ejercicio2">
+        <label>Tipos de triángulos (Escribe la medida de los lados)</label>
+        <input type="text" id="lado1" placeholder="Lado 1">
+        <input type="text" id="lado2" placeholder="Lado 2">
+        <input type="text" id="lado3" placeholder="Lado 3">
+        <button  class="boton" type="button" onclick=triangulo()>Respuesta</button>
+        <label id="mostrar_triangulo"></label>
+    </div>
+
+    <div id="ejercicio3">
+        <label>Calculadora de dos números</label>
+        <input type="text" id="num1" placeholder="Primer Número">
+        <input type="text" id="num2" placeholder="Segundo Número">
+        <button  class="boton" type="button" onclick=sumar()>+</button>
+        <button  class="boton" type="button" onclick=restar()>-</button>
+        <button  class="boton" type="button" onclick=multiplicar()>x</button>
+        <button  class="boton" type="button" onclick=dividir()>/</button>
+        <label id="calculo"></label>
+    </div>
+
+    <div id="ejercicio4">
+        <label>¿Es primo?</label>
+        <input type="text" id="primo" placeholder="Escribe un número">
+        <button  class="boton" type="button" onclick=es_primo()>Descubrámoslo:</button>
+        <label id="respuesta_primo"></label>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
